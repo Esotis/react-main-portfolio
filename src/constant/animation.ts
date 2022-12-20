@@ -98,3 +98,26 @@ export const SkillChildrenMotion = {
     },
   }),
 };
+
+export const QualificationMotion = {
+  hidden: {
+    y: "50%",
+    opacity: 0,
+  },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 1.5,
+      type: "spring",
+      bounce: 0.4,
+    },
+  },
+  exit: {
+    y: "50%",
+    opacity: 0,
+    transition: {
+      duration: 1,
+    },
+  },
+};
