@@ -5,9 +5,13 @@
 }
 
 .about-img {
-  width: 350px;
+  width: 300px;
   border-radius: 1.5rem;
   justify-self: center;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(100%) saturate(0.2) brightness(0.6);
 }
 
 .about-info {
@@ -60,6 +64,7 @@
 
   .about-img {
     width: 220px;
+    height: 220px;
   }
 
   .about-box {

@@ -60,7 +60,7 @@
 }
 
 .home-img {
-  background: url(../../assets/profile.jpg);
+  background: url(../../assets/jovan.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -69,6 +69,7 @@
   order: 1;
   width: 300px;
   height: 300px;
+  filter: grayscale(100%) saturate(0.2) brightness(0.7);
   justify-self: center;
   animation: profile-animate 8s ease-in-out infinite 1s;
   animation-delay: 0.5s;

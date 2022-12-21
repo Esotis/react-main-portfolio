@@ -121,3 +121,26 @@ export const QualificationMotion = {
     },
   },
 };
+
+export const WorkItemsMotion = {
+  hidden: {
+    x: "-50%",
+    opacity: 0,
+  },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      duration: 1.5,
+      type: "spring",
+      bounce: 0.4,
+    },
+  },
+  exit: {
+    x: "-50%",
+    opacity: 0,
+    transition: {
+      duration: 1,
+    },
+  },
+};

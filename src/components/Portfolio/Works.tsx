@@ -1,3 +1,4 @@
+import { AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import { projectsData, projectsNav } from "./Data";
 import "./Portfolio.css";
@@ -55,9 +56,11 @@ function Works() {
       </div>
 
       <div className="work-container container grid">
-        {projects.map((item) => {
-          return <WorkItems item={item} key={item.id} />;
-        })}
+        <AnimatePresence initial={false} mode="wait">
+          {projects.map((item) => {
+            return <WorkItems item={item} key={item.id} />;
+          })}
+        </AnimatePresence>
       </div>
     </>
   );

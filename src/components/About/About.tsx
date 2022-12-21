@@ -1,6 +1,6 @@
-import AboutImage from "../../assets/about.jpg";
 import FileSVG from "../../assets/files";
 import CV from "../../assets/John-Cv.pdf";
+import AboutImage from "../../assets/jovan.jpg";
 import "./About.css";
 import Info from "./Info";
 
