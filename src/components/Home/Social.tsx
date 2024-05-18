@@ -9,7 +9,7 @@ function Social({ socialMotion }: any) {
       className="home-social"
     >
       <a
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/jovananggata/"
         className="home-social-icon"
         target="_blank"
       >
@@ -17,19 +17,26 @@ function Social({ socialMotion }: any) {
       </a>
 
       <a
-        href="https://dribbble.com/"
+        href="https://www.linkedin.com/in/jovan-kirsten-anggata-739358260/"
         className="home-social-icon"
         target="_blank"
       >
-        <i className="uil uil-dribbble"></i>
+        <i className="uil uil-linkedin"></i>
       </a>
 
       <a
-        href="https://github.com/"
+        href="https://github.com/Esotis"
         className="home-social-icon"
         target="_blank"
       >
         <i className="uil uil-github"></i>
+      </a>
+      <a
+        href="https://wa.link/c5oa0i"
+        className="home-social-icon"
+        target="_blank"
+      >
+        <i className="uil uil-whatsapp"></i>
       </a>
     </motion.div>
   );

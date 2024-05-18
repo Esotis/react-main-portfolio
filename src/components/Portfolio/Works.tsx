@@ -9,6 +9,7 @@ export interface ProjectsData {
   image: any;
   title: string;
   category: string;
+  link: string;
 }
 
 interface Item {

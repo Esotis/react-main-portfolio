@@ -39,7 +39,7 @@ function Contact() {
                 href="mailto:jovananggata1@gmail.com"
                 className="contact-button"
               >
-                Write me{" "}
+                Mail me{" "}
                 <i className="uil uil-arrow-right contact-button-icon"></i>
               </a>
             </div>
@@ -50,8 +50,12 @@ function Contact() {
               <h3 className="contact-card-title">Whatsapp</h3>
               <span className="contact-card-data">+6285640812345</span>
 
-              <a href="" className="contact-button">
-                Write me{" "}
+              <a
+                href="https://wa.link/c5oa0i"
+                target="_blank"
+                className="contact-button"
+              >
+                Chat me{" "}
                 <i className="uil uil-arrow-right contact-button-icon"></i>
               </a>
             </div>
@@ -62,8 +66,12 @@ function Contact() {
               <h3 className="contact-card-title">Facebook</h3>
               <span className="contact-card-data">Jovananggata</span>
 
-              <a href="" className="contact-button">
-                Write me{" "}
+              <a
+                href="https://www.facebook.com/jovananggata.jovananggata?mibextid=ZbWKwL"
+                target="_blank"
+                className="contact-button"
+              >
+                See me{" "}
                 <i className="uil uil-arrow-right contact-button-icon"></i>
               </a>
             </div>

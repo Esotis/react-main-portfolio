@@ -118,15 +118,66 @@ function Qualification() {
                   </div>
 
                   <div>
-                    <h3 className="qualification-title">Learning FullStack</h3>
+                    <h3 className="qualification-title">Learning Front End</h3>
                     <span className="qualification-subtitle">
-                      Youtube - Web - Tiktok
+                      Youtube - Web - Tiktok - Figma
                     </span>
                     <div className="qualification-calender">
-                      <i className="uil uil-calendar-alt"></i> November 2022 -
-                      Present
+                      <i className="uil uil-calendar-alt"></i> November 2022
                     </div>
                   </div>
+                </div>
+                <div className="qualification-data">
+                  <div>
+                    <h3 className="qualification-title">
+                      Learning FullStack Developer
+                    </h3>
+                    <span className="qualification-subtitle">
+                      Youtube - Tiktok
+                    </span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> January 2023
+                    </div>
+                  </div>
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                  <div></div>
+                </div>
+                <div className="qualification-data">
+                  <div></div>
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                  <div>
+                    <h3 className="qualification-title">
+                      Learning web services and platforms
+                    </h3>
+                    <span className="qualification-subtitle">
+                      Youtube - Web
+                    </span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> April 2023
+                    </div>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div>
+                    <h3 className="qualification-title">
+                      Learning Computer Network
+                    </h3>
+                    <span className="qualification-subtitle">Youtube</span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> February 2024
+                    </div>
+                  </div>
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                  <div></div>
                 </div>
               </motion.div>
             )}
@@ -144,14 +195,13 @@ function Qualification() {
                 <div className="qualification-data">
                   <div>
                     <h3 className="qualification-title">
-                      Cloning Public Design
+                      Simple Travel and Tour Website
                     </h3>
                     <span className="qualification-subtitle">
                       Youtube - Figma
                     </span>
                     <div className="qualification-calender">
-                      <i className="uil uil-calendar-alt"></i> September 2022 -
-                      Present
+                      <i className="uil uil-calendar-alt"></i> August 2022
                     </div>
                   </div>
 
@@ -171,12 +221,11 @@ function Qualification() {
 
                   <div>
                     <h3 className="qualification-title">
-                      Make Simple E-Commerce
+                      Public Movie API Website
                     </h3>
-                    <span className="qualification-subtitle">Independent</span>
+                    <span className="qualification-subtitle">Youtube</span>
                     <div className="qualification-calender">
-                      <i className="uil uil-calendar-alt"></i> October 2022 -
-                      November 2022
+                      <i className="uil uil-calendar-alt"></i> August 2022
                     </div>
                   </div>
                 </div>
@@ -184,20 +233,231 @@ function Qualification() {
                 <div className="qualification-data">
                   <div>
                     <h3 className="qualification-title">
-                      Coming Soon FullStack Projects
+                      Contact App Using Express Server
                     </h3>
-                    <span className="qualification-subtitle">
-                      Figma - Web - Youtube
-                    </span>
+                    <span className="qualification-subtitle">Youtube</span>
                     <div className="qualification-calender">
-                      <i className="uil uil-calendar-alt"></i> December 2022 -
-                      Present
+                      <i className="uil uil-calendar-alt"></i> September 2022
                     </div>
                   </div>
 
                   <div>
                     <span className="qualification-rounder"></span>
                     <span className="qualification-line"></span>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div></div>
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                  <div>
+                    <h3 className="qualification-title">
+                      Contact App Using MySQL
+                    </h3>
+                    <span className="qualification-subtitle">Independent</span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> October 2022
+                    </div>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div>
+                    <h3 className="qualification-title">
+                      Contact App Using MongoDB
+                    </h3>
+                    <span className="qualification-subtitle">Independent</span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> October 2022
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div></div>
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                  <div>
+                    <h3 className="qualification-title">
+                      React Travel Website
+                    </h3>
+                    <span className="qualification-subtitle">Youtube</span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> October 2022
+                    </div>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div>
+                    <h3 className="qualification-title">
+                      Portfolio Web (React & Tailwind)
+                    </h3>
+                    <span className="qualification-subtitle">
+                      Youtube - Figma
+                    </span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> November 2022
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div></div>
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                  <div>
+                    <h3 className="qualification-title">
+                      Portfolio Website (React, Tailwind, NextJS 13)
+                    </h3>
+                    <span className="qualification-subtitle">Youtube</span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> November 2022
+                    </div>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div>
+                    <h3 className="qualification-title">React Gym Website</h3>
+                    <span className="qualification-subtitle">
+                      Youtube - Figma
+                    </span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> November 2022
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div></div>
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                  <div>
+                    <h3 className="qualification-title">
+                      Hangman Game (Typescript)
+                    </h3>
+                    <span className="qualification-subtitle">Youtube</span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> December 2022
+                    </div>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div>
+                    <h3 className="qualification-title">
+                      Note App (Typescript)
+                    </h3>
+                    <span className="qualification-subtitle">Youtube</span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> December 2022
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div></div>
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                  <div>
+                    <h3 className="qualification-title">
+                      Restaurant Website (Typescript)
+                    </h3>
+                    <span className="qualification-subtitle">
+                      Youtube - Figma
+                    </span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> December 2022
+                    </div>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div>
+                    <h3 className="qualification-title">Main Portfolio</h3>
+                    <span className="qualification-subtitle">
+                      Youtube - Figma
+                    </span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> December 2022
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div></div>
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                  <div>
+                    <h3 className="qualification-title">
+                      E-Commerce Project (MERN)
+                    </h3>
+                    <span className="qualification-subtitle">Youtube</span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> January 2023
+                    </div>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div>
+                    <h3 className="qualification-title">
+                      Admin Dashboard Project
+                    </h3>
+                    <span className="qualification-subtitle">
+                      Youtube - Figma
+                    </span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> February 2023
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div></div>
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                  <div>
+                    <h3 className="qualification-title">
+                      React Petshop Website
+                    </h3>
+                    <span className="qualification-subtitle">Figma</span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> June 2023
+                    </div>
                   </div>
                 </div>
               </motion.div>

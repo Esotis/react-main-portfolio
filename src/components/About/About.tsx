@@ -17,9 +17,8 @@ function About() {
           <Info />
 
           <p className="about-description">
-            FrontEnd and BackEnd Developer, about to start learn DevOps cause
-            it's fun to know the architecture and technology of Web. Every day I
-            always learn and do some projects.
+            FullStack Developer, still learning about computer network, it's fun
+            to know the architecture and technology of Web and Network.
           </p>
 
           {/* donwload attribute in anchor html element is used to download the href file instead of navigating to the file and rename the downloaded file to "Jovan_CV.pdf" */}

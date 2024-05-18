@@ -41,8 +41,7 @@ function Services() {
 
               <h3 className="services-modal-title">FrontEnd Developer</h3>
               <p className="services-modal-description">
-                Provide a web service and development into customer with quality
-                of work, time, and result
+                Building an UI for many websites along with user experience
               </p>
 
               <ul className="services-modal-services grid">
@@ -61,21 +60,14 @@ function Services() {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    Handling Web Server and Database
+                    Transforming Design to UI
                   </p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    Checking the security website and server
-                  </p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    Making up products for companies
+                    Making a simple website or landing page
                   </p>
                 </li>
               </ul>
@@ -110,27 +102,27 @@ function Services() {
 
               <h3 className="services-modal-title">BackEnd Developer</h3>
               <p className="services-modal-description">
-                Provide a web service and development into customer with quality
-                of work, time, and result
+                Creating web server and development app/service into with
+                quality of work, time, and result
               </p>
 
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">Building a server</p>
+                </li>
+
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    Developing User Interface
+                    Handling database and other services
                   </p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Web Development</p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    Handling Web Server and Database
+                    Establishing connection and web server
                   </p>
                 </li>
 
@@ -138,13 +130,6 @@ function Services() {
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
                     Checking the security website and server
-                  </p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    Making up products for companies
                   </p>
                 </li>
               </ul>
@@ -155,7 +140,7 @@ function Services() {
         <div className="services-content">
           <div>
             <i className="uil uil-edit services-icon"></i>
-            <h3 className="services-title">Dev Ops</h3>
+            <h3 className="services-title">Cloud Computing</h3>
           </div>
 
           <span className="services-button" onClick={() => toggleTab(3)}>
@@ -177,41 +162,36 @@ function Services() {
 
               <h3 className="services-modal-title">Dev Ops</h3>
               <p className="services-modal-description">
-                Provide a web service and development into customer with quality
-                of work, time, and result
+                Architecturing cloud services and organizing other stuffs about
+                cloud technologys and organization
               </p>
 
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    Developing User Interface
-                  </p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Web Development</p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    Handling Web Server and Database
+                    Making a map flow about cloud
                   </p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    Checking the security website and server
+                    Ensuring reliability and performance
                   </p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    Making up products for companies
+                    Securing cloud services and resources
+                  </p>
+                </li>
+
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Organizing people that are involved
                   </p>
                 </li>
               </ul>

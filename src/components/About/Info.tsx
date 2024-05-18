@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaAward, FaBriefcase, FaHeadphones } from "react-icons/fa";
+import { FaAward, FaBookOpen, FaFlagCheckered } from "react-icons/fa";
 import { InfoMotion } from "../../constant/animation";
 
 function Info() {
@@ -27,9 +27,9 @@ function Info() {
           viewport={{ once: true, amount: "all" }}
           className="about-box"
         >
-          <FaBriefcase className="about-icon" />
+          <FaFlagCheckered className="about-icon" />
           <h3 className="about-title">Completed</h3>
-          <span className="about-subtitle">10+ Projects</span>
+          <span className="about-subtitle">20+ Projects</span>
         </motion.div>
 
         <motion.div
@@ -40,7 +40,7 @@ function Info() {
           viewport={{ once: true, amount: "all" }}
           className="about-box"
         >
-          <FaHeadphones className="about-icon" />
+          <FaBookOpen className="about-icon" />
           <h3 className="about-title">Web Developer</h3>
           <span className="about-subtitle">Keep leaning!</span>
         </motion.div>
