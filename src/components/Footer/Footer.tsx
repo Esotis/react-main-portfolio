@@ -1,10 +1,17 @@
 import "./Footer.css";
+import TextSpan from "./TextSpan";
 
 function Footer() {
+  const sentence = "CoffinS".split("");
+
   return (
     <footer className="footer">
       <div className="footer-container container">
-        <h1 className="footer-title">CoffinS</h1>
+        <h1 className="footer-title">
+          {sentence.map((letter, index) => {
+            return <TextSpan key={index}>{letter}</TextSpan>;
+          })}
+        </h1>
 
         <ul className="footer-list">
           <li>

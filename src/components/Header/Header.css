@@ -102,10 +102,42 @@
 
 /* Breakpoints */
 
+@media screen and (min-width: 769px) {
+  .scrolled-nav {
+    background-color: rgb(255 255 255 / 0.65);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+
+  .scroll-progress {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 40;
+    height: 10px;
+    transform-origin: 0%;
+    background-color: hsl(0, 0%, 20%);
+    backdrop-filter: blur(4px);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .header {
     top: initial;
     bottom: 0;
+  }
+
+  .scroll-progress {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 40;
+    height: 10px;
+    transform-origin: 0%;
+    background-color: hsl(0, 0%, 20%);
+    backdrop-filter: blur(4px);
   }
 
   .nav {
@@ -119,7 +151,7 @@
     width: 100%;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.5);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
   }
@@ -166,7 +198,7 @@
 
 /* Change background header nav using box-shadow when user scroll */
 .scroll-header {
-  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 350px) {

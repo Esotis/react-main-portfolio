@@ -1,5 +1,5 @@
+import CV from "../../assets/JovanKirstenAnggata_CV.pdf";
 import FileSVG from "../../assets/files";
-import CV from "../../assets/John-Cv.pdf";
 import AboutImage from "../../assets/jovan.jpg";
 import "./About.css";
 import Info from "./Info";

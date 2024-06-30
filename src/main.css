@@ -1,6 +1,33 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
+/* pengaturan lebar scrollbar browser */
+::-webkit-scrollbar {
+  width: 12px;
+  background: rgb(255, 255, 255);
+}
+
+/* pengaturan isi scrollbar dalam browser */
+::-webkit-scrollbar-track {
+  border-radius: 100vw;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: rgb(255, 255, 255);
+}
+
+/* pengatuan bar untuk scroll */
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 20%);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 100vw;
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(0, 0%, 46%);
+  cursor: pointer;
+}
+
 /* Css Variables */
 :root {
   --header-height: 3rem;

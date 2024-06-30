@@ -117,7 +117,7 @@ function Contact() {
                 id="project"
                 cols={30}
                 rows={10}
-                className="contact-form-input"
+                className="contact-form-input text-input"
                 placeholder="Write your project"
               ></textarea>
             </div>
