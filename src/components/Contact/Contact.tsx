@@ -17,7 +17,7 @@ function Contact() {
       .sendForm(
         "service_9gipejk",
         "template_rut71yn",
-        form.current,
+        form.current!,
         "dYwBogtDgMXjRsOCT"
       )
       .then(
