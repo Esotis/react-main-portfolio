@@ -1,22 +1,78 @@
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { BsEnvelopeFill, BsFacebook, BsWhatsapp } from "react-icons/bs";
+import { Bounce, ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import sendSVG from "../../assets/send";
 import "./Contact.css";
 
 function Contact() {
   const form = useRef<HTMLFormElement>(null);
 
+  //emailJS function, send an email
   const sendEmail = (e: any) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_z2ozclb",
-      "template_gghpkhm",
-      form.current ?? "",
-      "UdCuOL2fNgnyNVaG2"
-    );
-    e.target.reset();
+    emailjs
+      .sendForm(
+        "service_9gipejk",
+        "template_rut71yn",
+        form.current,
+        "dYwBogtDgMXjRsOCT"
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          //notification toast if success sending the email
+          const resolveAfter2Sec = new Promise((resolve, reject) =>
+            setTimeout(resolve, 2000)
+          );
+          toast.promise(
+            resolveAfter2Sec,
+            {
+              pending: "Sending your message...",
+              success: "Your message has been sent 😎",
+            },
+            {
+              position: "top-right",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "colored",
+              transition: Bounce,
+            }
+          );
+          e.target.reset();
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          //notification toast if fail sending the email
+          const rejectAfter2Sec = new Promise((resolve, reject) =>
+            setTimeout(reject, 2000)
+          );
+          toast.promise(
+            rejectAfter2Sec,
+            {
+              pending: "Sending your message...",
+              error: "Fail to send the message 😭",
+            },
+            {
+              position: "top-right",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "colored",
+              transition: Bounce,
+            }
+          );
+        }
+      );
   };
 
   return (
@@ -79,7 +135,7 @@ function Contact() {
         </div>
 
         <div className="contact-content">
-          <h3 className="contact-title">Write me your project</h3>
+          <h3 className="contact-title">Send me a Message 👇</h3>
 
           <form className="contact-form" ref={form} onSubmit={sendEmail}>
             <div className="contact-form-div">
@@ -88,7 +144,7 @@ function Contact() {
               </label>
               <input
                 type="text"
-                name="name"
+                name="user_name"
                 id="name"
                 className="contact-form-input"
                 placeholder="Insert your name"
@@ -101,7 +157,7 @@ function Contact() {
               </label>
               <input
                 type="email"
-                name="email"
+                name="user_email"
                 id="email"
                 className="contact-form-input"
                 placeholder="Insert your email"
@@ -110,21 +166,23 @@ function Contact() {
 
             <div className="contact-form-div">
               <label htmlFor="project" className="contact-form-tag">
-                Project
+                Message
               </label>
               <textarea
-                name="project"
+                name="message"
                 id="project"
                 cols={30}
                 rows={10}
                 className="contact-form-input text-input"
-                placeholder="Write your project"
+                placeholder="Write your message"
               ></textarea>
             </div>
 
-            <button className="button button-flex">
+            <button type="submit" className="button button-flex">
               Send Message {sendSVG}
             </button>
+
+            <ToastContainer stacked />
           </form>
         </div>
       </div>
