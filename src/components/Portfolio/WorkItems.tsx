@@ -19,12 +19,14 @@ function WorkItems({ item }: WorkItemsProps) {
     >
       <img src={item.image} alt="" className="work-img" />
       <h3 className="work-title">{item.title}</h3>
+
       <a
         href={item.link ? item.link : "#"}
         target="_blank"
         className="work-button"
       >
-        Visit Site <i className="uil uil-arrow-right work-button-icon"></i>
+        {item.status == "published" ? "Visit Site" : "View Project"}{" "}
+        <i className="uil uil-arrow-right work-button-icon"></i>
       </a>
     </motion.div>
   );

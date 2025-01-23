@@ -17,8 +17,9 @@ function About() {
           <Info />
 
           <p className="about-description">
-            FullStack Developer, still learning about computer network, it's fun
-            to know the architecture and technology of Web and Network.
+            FullStack Developer and Junior Genesys Cloud Administrator, still
+            learning about computer network, it's fun to know the architecture
+            and technology of Web and Network.
           </p>
 
           {/* donwload attribute in anchor html element is used to download the href file instead of navigating to the file and rename the downloaded file to "Jovan_CV.pdf" */}

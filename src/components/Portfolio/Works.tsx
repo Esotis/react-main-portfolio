@@ -1,5 +1,6 @@
 import { AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
+import Certificate from "./Certificate";
 import { projectsData, projectsNav } from "./Data";
 import "./Portfolio.css";
 import WorkItems from "./WorkItems";
@@ -10,6 +11,7 @@ export interface ProjectsData {
   title: string;
   category: string;
   link: string;
+  status: string;
 }
 
 interface Item {
@@ -59,7 +61,11 @@ function Works() {
       <div className="work-container container grid">
         <AnimatePresence initial={false} mode="wait">
           {projects.map((item) => {
-            return <WorkItems item={item} key={item.id} />;
+            if (item.category != "certificate") {
+              return <WorkItems item={item} key={item.id} />;
+            } else if (item.category == "certificate") {
+              return <Certificate item={item} key={item.id} />;
+            }
           })}
         </AnimatePresence>
       </div>

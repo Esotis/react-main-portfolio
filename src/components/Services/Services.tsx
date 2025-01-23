@@ -160,7 +160,7 @@ function Services() {
                 onClick={() => toggleTab(0)}
               ></i>
 
-              <h3 className="services-modal-title">Dev Ops</h3>
+              <h3 className="services-modal-title">Cloud Engineer</h3>
               <p className="services-modal-description">
                 Architecturing cloud services and organizing other stuffs about
                 cloud technologys and organization
@@ -192,6 +192,69 @@ function Services() {
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
                     Organizing people that are involved
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="services-content">
+          <div>
+            <i className="uil uil-edit services-icon"></i>
+            <h3 className="services-title">Genesys Administrator</h3>
+          </div>
+
+          <span className="services-button" onClick={() => toggleTab(4)}>
+            View More
+            <i className="uil uil-arrow-right services-button-icon"></i>
+          </span>
+
+          {/* Modal */}
+          <div
+            className={
+              modal === 4 ? "services-modal active-modal" : "services-modal"
+            }
+          >
+            <div className="services-modal-content">
+              <i
+                className="uil uil-times services-modal-close"
+                onClick={() => toggleTab(0)}
+              ></i>
+
+              <h3 className="services-modal-title">
+                Genesys Cloud Administrator
+              </h3>
+              <p className="services-modal-description">
+                Maintaining Cloud Call Center environments, including the
+                organization
+              </p>
+
+              <ul className="services-modal-services grid">
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Implementing Telephony and Routing Solutions
+                  </p>
+                </li>
+
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Configuring & Managing User Access and Organization
+                  </p>
+                </li>
+
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Designing Call Flows, IVR Systems, and other requirements
+                  </p>
+                </li>
+
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Real-Time Call Monitoring
                   </p>
                 </li>
               </ul>

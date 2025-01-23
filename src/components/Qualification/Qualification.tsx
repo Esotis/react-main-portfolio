@@ -38,11 +38,22 @@ function Qualification() {
             <i className="uil uil-briefcase-alt qualification-icon"></i>{" "}
             Experience
           </div>
+          <div
+            className={
+              tab === 3
+                ? "qualification-button button-flex qualification-active"
+                : "qualification-button button-flex"
+            }
+            onClick={() => toggleTab(3)}
+          >
+            <i className="uil uil-clipboard-notes qualification-icon"></i>{" "}
+            Project
+          </div>
         </div>
 
-        {/* Education section */}
         <div className="qualification-sections">
           <AnimatePresence initial={false} mode="wait">
+            {/* Experience section */}
             {tab === 1 && (
               <motion.div
                 variants={QualificationMotion}
@@ -54,6 +65,52 @@ function Qualification() {
               >
                 <div className="qualification-data">
                   <div>
+                    <h3 className="qualification-title">Krista Mitra</h3>
+                    <span className="qualification-subtitle">High School</span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> July 2019
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                </div>
+
+                <div className="qualification-data">
+                  <div></div>
+
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+
+                  <div>
+                    <h3 className="qualification-title">Stikubank</h3>
+                    <span className="qualification-subtitle">
+                      Bachelor of Information Systems (Ongoing)
+                    </span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> September 2022
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            )}
+
+            {/* Experience section */}
+            {tab === 2 && (
+              <motion.div
+                variants={QualificationMotion}
+                initial="hidden"
+                animate="visible"
+                exit="exit"
+                key="experience"
+                className="qualification-content"
+              >
+                <div className="qualification-data">
+                  <div>
                     <h3 className="qualification-title">
                       Learning Basic Things
                     </h3>
@@ -61,7 +118,7 @@ function Qualification() {
                       Youtube - W3Schools - Independent
                     </span>
                     <div className="qualification-calender">
-                      <i className="uil uil-calendar-alt"></i> 27 April 2022
+                      <i className="uil uil-calendar-alt"></i> April 2022
                     </div>
                   </div>
 
@@ -82,7 +139,7 @@ function Qualification() {
                   <div>
                     <h3 className="qualification-title">Dicoding Course</h3>
                     <span className="qualification-subtitle">
-                      Free Entry - BackEnd Path
+                      Free Entry - BackEnd Path - Path 4
                     </span>
                     <div className="qualification-calender">
                       <i className="uil uil-calendar-alt"></i> July 2022
@@ -179,18 +236,36 @@ function Qualification() {
                   </div>
                   <div></div>
                 </div>
+                <div className="qualification-data">
+                  <div></div>
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                  <div>
+                    <h3 className="qualification-title">
+                      Junior Genesys Cloud Administrator
+                    </h3>
+                    <span className="qualification-subtitle">
+                      Kampus Merdeka Program - MSIB Batch 7
+                    </span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> September 2024
+                    </div>
+                  </div>
+                </div>
               </motion.div>
             )}
 
-            {/* Experince section */}
-            {tab === 2 && (
+            {/* Project section */}
+            {tab === 3 && (
               <motion.div
                 className="qualification-content"
                 variants={QualificationMotion}
                 initial="hidden"
                 animate="visible"
                 exit="exit"
-                key="experience"
+                key="project"
               >
                 <div className="qualification-data">
                   <div>
@@ -458,6 +533,60 @@ function Qualification() {
                     <div className="qualification-calender">
                       <i className="uil uil-calendar-alt"></i> June 2023
                     </div>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div>
+                    <h3 className="qualification-title">
+                      Web Messaging with Bot
+                    </h3>
+                    <span className="qualification-subtitle">
+                      Genesys - Web Messenger - Bot Flow
+                    </span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> November 2024
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div></div>
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
+                  </div>
+                  <div>
+                    <h3 className="qualification-title">
+                      Trans Jakarta Call Center
+                    </h3>
+                    <span className="qualification-subtitle">
+                      Genesys - Inbound Call
+                    </span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> December 2024
+                    </div>
+                  </div>
+                </div>
+                <div className="qualification-data">
+                  <div>
+                    <h3 className="qualification-title">
+                      HealthCare Call Center
+                    </h3>
+                    <span className="qualification-subtitle">
+                      Genesys - Inbound Call
+                    </span>
+                    <div className="qualification-calender">
+                      <i className="uil uil-calendar-alt"></i> December 2024
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
                   </div>
                 </div>
               </motion.div>

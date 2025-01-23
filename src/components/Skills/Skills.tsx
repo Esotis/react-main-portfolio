@@ -1,5 +1,6 @@
 import BackEnd from "./BackEnd";
 import FrontEnd from "./FrontEnd";
+import Genesys from "./Genesys";
 import "./Skills.css";
 
 function Skills() {
@@ -13,6 +14,7 @@ function Skills() {
           <FrontEnd />
 
           <BackEnd />
+          <Genesys />
         </div>
       </section>
     </>
